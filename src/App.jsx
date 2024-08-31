@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Gallery from './components/jsx/gallery';
+import Gallery from './components/jsx/Gallery.JSX';
 import PhotoDetails from './components/jsx/PhotoDetails';
 import Home from './pages/Home';
 
