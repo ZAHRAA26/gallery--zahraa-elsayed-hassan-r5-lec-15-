@@ -3,7 +3,7 @@ import Masonry from 'react-masonry-css';
 import '../style/Gallery.css';
 import { Link } from 'react-router-dom';
 
-export default function Gallery(props) {
+export default Gallery = (props) => {
     return (
         <Masonry
             breakpointCols={{ default: 4, 1100: 3, 700: 2, 500: 1 }}
@@ -23,4 +23,4 @@ export default function Gallery(props) {
             ))}
         </Masonry>
     );
-}
+};
